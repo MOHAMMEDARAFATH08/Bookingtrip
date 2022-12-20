@@ -1,20 +1,110 @@
-
 *{
-    margin: 0;
+    /* margin: 0; */
     padding: 0;
 }
-#logo{
-    margin-left:  100px;
-    padding-top: 20px;
+.part1{
+    height: 100px;
+}
+.logo{
+    padding-left: 60px;
+    padding-top: 5px;
+}
+.num{
+    font-size: small;
 }
 .call{
-margin-top: -60px;
-padding-left: 60%;
-font-size: small;
+    margin-top: -70px;
+    padding-left: 50%;
 
 }
-p{
-    margin-top: -20px;
-padding-left: 60%;
-    font-size:medium;
+.search{
+    margin-top: -60px;
+    margin-left: 75%;
+}
+.searchbar{
+    border-radius:30px;
+    padding: 5px 5px 5px 5px;
+}
+.navbar{
+    margin-top:-5px;
+    height:60px;
+    background-color: #2b86a7;
+
+}
+.lorem{
+    margin-top: -350px;
+    margin-left: 50%;
+    width:400px;
+    position: absolute;
+    background-color: #2b86a7 ;
+    opacity: 0.9;
+    padding:3px 3px 3px 3px ;
+}
+
+.back img{
+    width: 100%;
+}
+.places{
+    font-size:x-large;
+    
+}
+.head1{
+    justify-content: center;
+    font-size: 30px;
+}
+.head1::after{
+    position: absolute;
+    content: "";
+    width: 90%;
+    background-color:gray;
+    height: 1px;
+    margin-top: 30px;
+    justify-content: center;
+}
+.pimages{
+    display: flex;
+    flex-direction: row;
+    margin-left: 170px;
+    margin-right: 70px;
+    
+}
+.popimg{
+    padding: 30px;
+    
+}
+
+.popprice{
+    margin-left:250px;
+    margin-top: -50px;
+    color: white;
+    background-color: #2b86a7;
+    padding-left:5px;
+}
+.font{
+    font-size: large;
+    
+}
+.detail{
+    border: 1px solid black;
+    background-color: white;
+    padding: 10px;
+    background-color: white;
+}
+.dealimage{
+    padding: 30px;
+
+}
+#paris{
+    width: 480px;
+}
+.pimages2{
+    display: flex;
+    flex-direction: row;
+    margin-left: 170px;
+    margin-right: 70px;
+    
+}
+.dealimg{
+    padding: 30px;
+
 }
